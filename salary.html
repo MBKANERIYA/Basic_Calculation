@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+
+        <script>
+
+            let bs = parseInt(prompt("enter your base salary = "))
+            console.log("base salary =", bs);
+
+            let hra = parseInt (prompt("enter house rent allowance = "))
+            hra = bs*hra/100
+            console.log("enter house rent allowance =", hra);
+            
+            let da = parseInt(prompt("enter dearness allowance = "))
+            da = bs*da/100
+            console.log("dearness allowance =",da);
+           
+            let ta = parseInt (prompt("enter travelling allowance = "))
+            ta = bs*ta/100
+            console.log("travelling allowance =",ta);
+
+            // total salary
+
+            let ts = bs + hra + da + ta
+            console.log("total salary = ", ts);
+
+
+        </script>
+    </body>
+
+</html>
